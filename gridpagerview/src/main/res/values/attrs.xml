@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GridPagerView">
+        <attr name="rowCount" format="integer"/>
+        <attr name="colCount" format="integer"/>
+        <attr name="verGap" format="dimension"/>
+        <attr name="horGap" format="dimension"/>
+        <attr name="requiredWidth" format="dimension"/>
+        <attr name="requiredHeight" format="dimension"/>
+        <attr name="gapStyle">
+            <flag name="GAP_NONE" value="0"/>
+            <flag name="GAP_AVG" value="-1"/>
+            <flag name="GAP_CUSTOM" value="-2"/>
+        </attr>
+
+    </declare-styleable>
+</resources>
